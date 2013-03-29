@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/27/client/config
+END
+config_local.json-dist
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/27/client/config/config_local.json-dist
+END
+config_build.json-dist
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/27/client/config/config_build.json-dist
+END

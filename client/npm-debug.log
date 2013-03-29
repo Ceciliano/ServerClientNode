@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'http-client' ]
+2 info using npm@1.1.63
+3 info using node@v0.8.12
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose read json C:\Users\Rafael\AppData\Roaming\npm\package.json
+6 verbose read json C:\Users\Rafael\AppData\Roaming\npm\package.json
+7 verbose cache add [ 'http-client', null ]
+8 silly cache add name=undefined spec="http-client" args=["http-client",null]
+9 verbose parsed url { pathname: 'http-client',
+9 verbose parsed url   path: 'http-client',
+9 verbose parsed url   href: 'http-client' }
+10 silly lockFile a58e7ab7-http-client http-client
+11 verbose lock http-client C:\Users\Rafael\AppData\Roaming\npm-cache\a58e7ab7-http-client.lock
+12 silly lockFile a58e7ab7-http-client http-client
+13 verbose addNamed [ 'http-client', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile 08541329-http-client http-client@
+16 verbose lock http-client@ C:\Users\Rafael\AppData\Roaming\npm-cache\08541329-http-client.lock
+17 silly addNameRange { name: 'http-client', range: '', hasData: false }
+18 verbose url raw http-client
+19 verbose url resolving [ 'https://registry.npmjs.org/', './http-client' ]
+20 verbose url resolved https://registry.npmjs.org/http-client
+21 info trying registry request attempt 1 at 23:19:12
+22 http GET https://registry.npmjs.org/http-client
+23 http 404 https://registry.npmjs.org/http-client
+24 silly registry.get cb [ 404,
+24 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+24 silly registry.get     date: 'Wed, 31 Oct 2012 01:19:04 GMT',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'cache-control': 'must-revalidate' } ]
+25 silly lockFile 08541329-http-client http-client@
+26 error 404 'http-client' is not in the npm registry.
+26 error 404 You should bug the author to publish it
+26 error 404
+26 error 404 Note that you can also install from a
+26 error 404 tarball, folder, or http url, or git url.
+27 error System Windows_NT 6.1.7601
+28 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "http-client"
+29 error cwd C:\browserQuest\client
+30 error node -v v0.8.12
+31 error npm -v 1.1.63
+32 error code E404
+33 verbose exit [ 1, true ]
