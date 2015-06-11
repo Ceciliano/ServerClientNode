@@ -1,2 +1,2 @@
-ShoppingVirtual
+ServerClientNode
 ===============
